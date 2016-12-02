@@ -27,3 +27,5 @@ for year in range(1924, 2013, 4):
 
     graph = new[new.index=="Accomack County"].plot(x="Year", y="Republican Vote Share")
     graph.get_figure().savefig('voteshare.pdf')
+    ### Aren't the instructions clear on the filename accomack.png?
+    
